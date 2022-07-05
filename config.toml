@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
+
+ShowToc = true
+TocOpen = true
+
+[params]
+defaultTheme = "light"
+# 分享按钮
+ShowShareButtons = true
+# Show post reading time
+ShowReadingTime = true
+# BreadCrumb Navigation
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+comments = true
+
+
+
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+
+# Search Page
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
